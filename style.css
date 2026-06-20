@@ -1,0 +1,74 @@
+body{
+    background:#0d0d0d;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+.navbar{
+    background:#000;
+}
+
+.navbar-brand{
+    color:#d4af37 !important;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+.hero{
+    height:90vh;
+    background:url('https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=1600')
+    center/cover;
+    display:flex;
+    align-items:center;
+}
+
+.hero-content{
+    margin-left:100px;
+}
+
+.hero h1{
+    font-size:70px;
+}
+
+.btn-gold{
+    background:#d4af37;
+    color:black;
+    border:none;
+}
+
+.section-title{
+    text-align:center;
+    margin:40px 0;
+    color:#d4af37;
+}
+
+.card{
+    background:#1a1a1a;
+    border:none;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.price{
+    color:#d4af37;
+    font-size:22px;
+    font-weight:bold;
+}
+
+footer{
+    background:black;
+    padding:40px;
+    margin-top:50px;
+}
